@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.option {
+    text-align: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.option img {
+    max-width: 200px;
+}
+
+.option p {
+    margin-top: 10px;
+}
